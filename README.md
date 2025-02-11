@@ -71,7 +71,7 @@ Want to add your own challenge? Feel free to fork this repo and create a **pull 
 
 ## 📢 Stay Updated
 
-Follow us on **[LinkedIn](https://linkedin.com/company/cybereyes)** and join the **[Discord](https://discord.gg/cybersecuritykenya)** community for updates, discussions, and security tips!  
+Follow us on **[LinkedIn-cyber eyes](https://www.linkedin.com/company/cyber-eyes-networks-ke)** and join the **[LinkedIn-CSK](https://www.linkedin.com/company/computer-society-of-kirinyaga)** community for updates, discussions, and security tips!  
 
 🔹 **Happy Hacking!** 🔹  🔹 **Cloud security!** 🔹
 
