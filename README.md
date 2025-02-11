@@ -17,7 +17,8 @@ One of your storage accounts has been accidentally misconfigured, exposing sensi
 
 ---
 
-Prerequisites: Azure Storage, Azure CLI, and Azure Monitor & Defender for Storage.
+### Prerequisites: Azure Storage, Azure CLI, and Azure Monitor & Defender for Storage.
+
 Before starting, ensure you have basic knowledge of:
 
 ✅ An Azure Account – Access to the Azure portal to create and manage storage accounts.
