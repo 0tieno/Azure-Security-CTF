@@ -1,8 +1,8 @@
-# Azure-Security-CTF 🚀🔐  
+# Azure-cloud_Security-CTF_hackathon 🚀🔐  
 
-Welcome to the **Azure Security Capture The Flag (CTF)** challenges at **Hackfest 2.0**, a 7-day hackathon organized by **cyberEyes & CSK**. This event is designed to test and improve your **Azure cloud security skills** through **real-world security misconfigurations and threats**.  
+Welcome to the **Azure cloud Security Capture The Flag (CTF)** challenges at **Hackfest 2.0**, a 7-day hackathon organized by **cyberEyes & CSK**. This event is designed to test and improve your **Azure cloud security skills** through **real-world security misconfigurations and threats**.  
 
-## 🔥 Challenge Overview
+## 🔥 Challenges Overview
 
 The challenges are based on **real-world scenarios** and cover a wide range of **Azure security topics**, including:  
 
@@ -74,4 +74,5 @@ Want to add your own challenge? Feel free to fork this repo and create a **pull 
 Follow us on **[LinkedIn](https://linkedin.com/company/cybereyes)** and join the **[Discord](https://discord.gg/cybersecuritykenya)** community for updates, discussions, and security tips!  
 
 🔹 **Happy Hacking!** 🔹  🔹 **Cloud security!** 🔹
-@0tieno @$!rronn3y @cyberEyes @CSK
+
+- prepared by $!rronn3y courtesy of @cyberEyes @CSK
