@@ -16,7 +16,7 @@ The challenges are based on **real-world scenarios** and cover a wide range of *
 
 ## 📌 CTF Challenges  
 
-### 🚀 Challenge 1: **Exposed Storage - Retrieve the Secret** (100 Points)
+### 🚀 [Challenge 1:](https://github.com/0tieno/Azure-Security-CTF/blob/main/ctf_1-storage-security.md) **Exposed Storage - Retrieve the Secret** (100 Points)
 
 🔹 A misconfigured **Azure Storage Account** exposes sensitive information.  
 🔹 Find the **publicly accessible file** and extract the hidden **flag from metadata**.  
