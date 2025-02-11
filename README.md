@@ -140,19 +140,19 @@ Your objective is to **lock down** the misconfigured storage account and prevent
 
 ### Further Learning Resources
 
-📌 Azure Storage Accounts – [Overview of Azure Storage Accounts](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)
+📌 Azure Storage Accounts – [Overview of Azure Storage Accounts](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview/?wt.mc_id=studentamb_387261 )
 
-📌 Azure Blob Storage – [Introduction to Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)
+📌 Azure Blob Storage – [Introduction to Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction/?wt.mc_id=studentamb_387261 )
 
-📌 Managing Blob Access – [Configure anonymous public access to containers and blobs](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
+📌 Managing Blob Access – [Configure anonymous public access to containers and blobs](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal/?wt.mc_id=studentamb_387261 )
 
-📌 Azure Monitor Logs – [Azure Monitor Logs Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs)
+📌 Azure Monitor Logs – [Azure Monitor Logs Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs/?wt.mc_id=studentamb_387261 )
 
-📌 Microsoft Defender for Storage – [Defender for Storage Overview](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction)
+📌 Microsoft Defender for Storage – [Defender for Storage Overview](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction/?wt.mc_id=studentamb_387261 )
 
-📌 Azure Storage SAS Tokens – [Using Shared Access Signatures (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
+📌 Azure Storage SAS Tokens – [Using Shared Access Signatures (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview/?wt.mc_id=studentamb_387261 )
 
-📌 Azure CLI for Storage – [Azure CLI Storage Command Reference](https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest)
+📌 Azure CLI for Storage – [Azure CLI Storage Command Reference](https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest/?wt.mc_id=studentamb_387261 )
 
 ### SUMMARY (Hidden from Participants)
 
