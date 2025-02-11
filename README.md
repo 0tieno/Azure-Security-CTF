@@ -17,14 +17,14 @@ One of your storage accounts has been accidentally misconfigured, exposing sensi
 
 ---
 
-### Prerequisites: Azure Storage, Azure CLI, and Azure Monitor & Defender for Storage.
+### Prerequisites: What You Need to Know
 
 Before starting, ensure you have basic knowledge of:
 
-✅ An Azure Account – Access to the Azure portal to create and manage storage accounts.
-✅ Azure CLI or PowerShell – Used to interact with Azure Storage. (Install Azure CLI)
-✅ Azure Storage – Understanding of blob storage, public vs. private access, and metadata.
-✅ Azure Monitor & Defender for Storage Basics – Familiarity with logging and security alerts.
+- ✅ An Azure Account – Access to the Azure portal to create and manage storage accounts.
+- ✅ Azure CLI or PowerShell – Used to interact with Azure Storage. (Install Azure CLI)
+- ✅ Azure Storage – Understanding of blob storage, public vs. private access, and metadata.
+- ✅ Azure Monitor & Defender for Storage Basics – Familiarity with logging and security alerts.
 
 💡 If you're new to Azure Storage Security, check out this guide. 🚀
 
