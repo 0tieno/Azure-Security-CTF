@@ -140,19 +140,19 @@ Your objective is to **lock down** the misconfigured storage account and prevent
 
 ### Further Learning Resources
 
-📌 Azure Storage Accounts – Overview of Azure Storage Accounts
+📌 Azure Storage Accounts – [Overview of Azure Storage Accounts](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
-📌 Azure Blob Storage – Introduction to Blob Storage
+📌 Azure Blob Storage – [Introduction to Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)
 
-📌 Managing Blob Access – Configure anonymous public access to containers and blobs
+📌 Managing Blob Access – [Configure anonymous public access to containers and blobs](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
 
-📌 Azure Monitor Logs – Azure Monitor Logs Overview
+📌 Azure Monitor Logs – [Azure Monitor Logs Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs)
 
-📌 Microsoft Defender for Storage – Defender for Storage Overview
+📌 Microsoft Defender for Storage – [Defender for Storage Overview](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction)
 
-📌 Azure Storage SAS Tokens – Using Shared Access Signatures (SAS)
+📌 Azure Storage SAS Tokens – [Using Shared Access Signatures (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
 
-📌 Azure CLI for Storage – Azure CLI Storage Command Reference
+📌 Azure CLI for Storage – [Azure CLI Storage Command Reference](https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest)
 
 ### SUMMARY (Hidden from Participants)
 
