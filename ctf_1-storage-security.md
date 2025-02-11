@@ -97,9 +97,9 @@ Your objective is to **lock down** the misconfigured storage account and prevent
 - Navigate to **Storage Explorer or Azure CLI**.
 - Check the existing **SAS tokens** (any active or expired links?).
 - **Regenerate a new SAS token** with the following settings:
-    - **Permissions:** Read-only
-    - **Expiry Time:** Set it to expire within **30 minutes**
-    - **IP Restrictions:** Allow only a specific IP (your own)
+  - **Permissions:** Read-only
+  - **Expiry Time:** Set it to expire within **30 minutes**
+  - **IP Restrictions:** Allow only a specific IP (your own)
 
 💡 **Hint:** SAS tokens **can be leaked**. If an attacker has an old SAS URL, they might still access files until it expires.
 
@@ -109,9 +109,9 @@ Your objective is to **lock down** the misconfigured storage account and prevent
 
 - Go to **ctfhackstorage → Monitoring → Diagnostic Settings**.
 - Click **+ Add diagnostic setting** and select:
-    - ✅ **Blob Read & Write Events**
-    - ✅ **Delete Events** (to track file tampering)
-    - ✅ **Access Logs** (to see who accessed the storage)
+  - ✅ **Blob Read & Write Events**
+  - ✅ **Delete Events** (to track file tampering)
+  - ✅ **Access Logs** (to see who accessed the storage)
 - **Send logs to Log Analytics Workspace**.
 
 💡 **Hint:** Logs help track **who accessed the flag before you**! Find the attacker’s IP from logs for bonus points.
