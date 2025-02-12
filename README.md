@@ -1,8 +1,21 @@
 # Azure-cloud_Security-CTF_hackathon 🚀🔐  
 
-Welcome to the **Azure cloud Security Capture The Flag (CTF)** challenges at **Hackfest 2.0**, a 7-day hackathon organized by **cyberEyes & CSK**. This event is designed to test and improve your **Azure cloud security skills** through **real-world security misconfigurations and threats**.  
+Welcome to the **Azure cloud Security Capture The Flag (CTF)** challenges at **Hackfest 2.0**, a 7-day hackathon organized by **cyberEyes & CSK**. This event is designed to test and improve your **Azure cloud security skills** through **real-world security misconfigurations and threats**.
 
-## 🔥 Challenges Overview
+## Structure the Azure Security CTF
+
+Each challenge will be designed as a flag-based security challenge where participants need to complete a task and retrieve a "flag" (a hidden code or phrase). Flags will be stored in secure locations that participants can only access after properly securing or exploiting the system.
+
+### Scoring System
+
+Each challenge is assigned a difficulty level:
+🟢 Beginner (100 points)
+🔵 Intermediate (200 points)
+🔴 Advanced (300+ points)
+The first team to submit a correct flag earns extra bonus points (+50).
+The leaderboard updates in real-time based on completed challenges.
+
+### 🔥 Challenges Overview
 
 The challenges are based on **real-world scenarios** and cover a wide range of **Azure security topics**, including:  
 
