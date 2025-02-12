@@ -13,8 +13,6 @@ Each challenge is assigned a difficulty level:
 - 🟢 Beginner (100 points)
 - 🔵 Intermediate (200 points)
 - 🔴 Advanced (300+ points)
-- ⭐ Bonus (+50 points)
-- 🚩 Flag (+50 points
   
 The first team to submit a correct flag earns extra bonus points (+50).
 The leaderboard updates in real-time based on completed challenges.
