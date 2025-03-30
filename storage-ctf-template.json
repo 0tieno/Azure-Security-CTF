@@ -1,0 +1,125 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2022-09-01",
+      "name": "ctfhackstorage",
+      "location": "[resourceGroup().location]",
+      "kind": "StorageV2",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "properties": {
+        "allowBlobPublicAccess": true,
+        "supportsHttpsTrafficOnly": false
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2022-09-01",
+      "name": "ctfsecurestorage",
+      "location": "[resourceGroup().location]",
+      "kind": "StorageV2",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "properties": {
+        "allowBlobPublicAccess": false,
+        "supportsHttpsTrafficOnly": true
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2022-09-01",
+      "name": "ctfhackstorage/publiccontainer",
+      "dependsOn": [
+        "Microsoft.Storage/storageAccounts/ctfhackstorage"
+      ],
+      "properties": {
+        "publicAccess": "Blob"
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2022-09-01",
+      "name": "ctfsecurestorage/securecontainer",
+      "dependsOn": [
+        "Microsoft.Storage/storageAccounts/ctfsecurestorage"
+      ],
+      "properties": {
+        "publicAccess": "None"
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers/blobs",
+      "apiVersion": "2022-09-01",
+      "name": "ctfhackstorage/publiccontainer/hidden_93ds7a.txt",
+      "dependsOn": [
+        "Microsoft.Storage/storageAccounts/blobServices/containers/ctfhackstorage/publiccontainer"
+      ],
+      "properties": {
+        "contentType": "text/plain",
+        "metadata": {
+          "access_code_93ds7a": "CTF{secure_storage_fixed}"
+        }
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers/blobs",
+      "apiVersion": "2022-09-01",
+      "name": "ctfhackstorage/publiccontainer/readme.txt",
+      "dependsOn": [
+        "Microsoft.Storage/storageAccounts/blobServices/containers/ctfhackstorage/publiccontainer"
+      ],
+      "properties": {
+        "contentType": "text/plain"
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers/blobs",
+      "apiVersion": "2022-09-01",
+      "name": "ctfhackstorage/publiccontainer/wrong_flag.txt",
+      "dependsOn": [
+        "Microsoft.Storage/storageAccounts/blobServices/containers/ctfhackstorage/publiccontainer"
+      ],
+      "properties": {
+        "contentType": "text/plain"
+      }
+    },
+    {
+      "type": "Microsoft.Security/pricings",
+      "apiVersion": "2020-01-01-preview",
+      "name": "Storage",
+      "properties": {
+        "pricingTier": "Standard"
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/providers/diagnosticSettings",
+      "apiVersion": "2021-05-01-preview",
+      "name": "ctfhackstorage/Microsoft.Insights/enableLogs",
+      "dependsOn": [
+        "Microsoft.Storage/storageAccounts/ctfhackstorage"
+      ],
+      "properties": {
+        "storageAccountId": "[resourceId('Microsoft.Storage/storageAccounts', 'ctfhackstorage')]",
+        "logs": [
+          {
+            "category": "StorageRead",
+            "enabled": true
+          },
+          {
+            "category": "StorageWrite",
+            "enabled": true
+          },
+          {
+            "category": "StorageDelete",
+            "enabled": true
+          }
+        ]
+      }
+    }
+  ]
+}
