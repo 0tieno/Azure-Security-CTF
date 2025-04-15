@@ -90,4 +90,4 @@ Follow us on **[LinkedIn-cyber eyes](https://www.linkedin.com/company/cyber-eyes
 
 🔹 **Happy Hacking!** 🔹  🔹 **Cloud security!** 🔹
 
-- prepared by [$!rronn3y](www.ronneyotieno.me) courtesy of @cyberEyes @CSK
+- prepared by [$!rronn3y](https://www.ronneyotieno.me) courtesy of @cyberEyes @CSK
